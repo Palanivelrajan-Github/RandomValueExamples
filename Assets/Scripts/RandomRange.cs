@@ -1,7 +1,12 @@
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class RandomRange : MonoBehaviour
 {
+
+    
+
     #region Example 1
 
     /*public GameObject prefab;
@@ -21,10 +26,9 @@ public class RandomRange : MonoBehaviour
     #endregion
 
 
-
     #region Example 2
     
-    public GameObject prefab;
+    /*public GameObject prefab;
     public float zoffset = 10;
 
     // Click the "Instantiate!" button and a new grid of `prefab` objects will be
@@ -47,9 +51,11 @@ public class RandomRange : MonoBehaviour
                 }
             }
 
+           
+            
             zoffset += 2;
         }
-    }
+    }*/
     
     #endregion
     
